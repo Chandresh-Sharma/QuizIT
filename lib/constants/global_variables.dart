@@ -12,4 +12,6 @@ class GlobalVariables {
   static const greyBackgroundColor = Colors.grey;
   static const secondaryColor = Color.fromRGBO(255, 153, 0, 1);
   static const originalSecondaryColor = Color.fromRGBO(125, 115, 195, 1);
+  static const navigationDrawerDivider = Colors.black54;
+  static const navigationDrawerHeader = secondaryColor;
 }
