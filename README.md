@@ -4,7 +4,7 @@ A Flutter quiz application.
 
 ## Getting Started
 
-###Installing requist
+### Installing requist
 
 - Install Flutter.
 - Install Android Studio(We need it for Virtual Android Devices)
@@ -14,7 +14,7 @@ A Flutter quiz application.
 - Install Dart extension in VScode.
 - Install node.
 
-###How to Run this application
+### How to Run this application
 
 - Install Pre-requist.
 - First go to the global variables file and change IP address to your there. (Steps to find your own IP v4 address -> Go to start  -> Type terminal -> Type "ipconfig" -> Check wireless LAN adaptor -> There u can find IP address)
@@ -22,7 +22,7 @@ A Flutter quiz application.
 - Then in terminal type "npm run dev".
 - Now run your application it's ready to use.
 
-###Folder Structure
+### Folder Structure
 
 -> Common folder - This folder consist of all common things that will be used throughout the application.
 	- Widgets(This folder is place for a all common widgets we will use through out the app. stateless widgets are used)
