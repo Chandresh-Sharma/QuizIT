@@ -4,7 +4,7 @@ A Flutter quiz application.
 
 ## Getting Started
 
-### Installing requist
+### Installing requisite
 
 - Install Flutter.
 - Install Android Studio(We need it for Virtual Android Devices)
@@ -16,7 +16,7 @@ A Flutter quiz application.
 
 ### How to Run this application
 
-- Install Pre-requist.
+- Install Pre-requisite.
 - First go to the global variables file and change IP address to your there. (Steps to find your own IP v4 address -> Go to start  -> Type terminal -> Type "ipconfig" -> Check wireless LAN adaptor -> There u can find IP address)
 - Now in VS code right click on server folder open integrated terminal.
 - Then in terminal type "npm run dev".
