@@ -4,7 +4,7 @@ const COLOR_WHITE = Colors.white;
 const COLOR_GREY = Colors.grey;
 const COLOR_BLACK = Colors.black;
 
-String uri = 'http://192.168.38.129:3000';
+String uri = 'http://192.168.39.129:3000';
 
 class GlobalVariables {
   //static const COLOR_WHITE = Colors.white;

@@ -21,9 +21,9 @@ class AuthService {
     try {
       User user = User(
         id: '',
-        name: '',
-        email: '',
-        password: '',
+        name: name,
+        password: password,
+        email: email,
         address: '',
         type: '',
         token: '',
@@ -41,7 +41,10 @@ class AuthService {
         response: res,
         context: context,
         onSuccess: () {
-          showSnackBar(context, 'Account Created! Login with credential!');
+          showSnackBar(
+            context,
+            'Account Created! Login with credential!',
+          );
         },
       );
     } catch (e) {

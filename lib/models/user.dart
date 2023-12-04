@@ -24,6 +24,7 @@ class User {
       'id': id,
       'name': name,
       'password': password,
+      'email': email,
       'address': address,
       'type': type,
       'token': token,
