@@ -1,8 +1,8 @@
 import "package:flutter/material.dart";
-import 'package:quizit/features/auth/screens/custom/CustomDesginedButton.dart';
-import 'package:quizit/features/auth/screens/custom/CustomScreen.dart';
-import 'package:quizit/features/auth/screens/auth/auth_screen.dart';
-import "package:quizit/features/auth/screens/home/home_screen.dart";
+import 'package:quizit/features/custom/CustomDesginedButton.dart';
+import 'package:quizit/features/custom/CustomScreen.dart';
+import 'package:quizit/features/auth/screens/auth_screen.dart';
+import 'package:quizit/features/home/home_screen.dart';
 
 Route<dynamic> generateRoute(RouteSettings routeSettings) {
   switch (routeSettings.name) {

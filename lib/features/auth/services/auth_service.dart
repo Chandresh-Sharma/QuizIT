@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:quizit/constants/error_handling.dart';
 import 'package:quizit/constants/global_variables.dart';
 import 'package:quizit/constants/utils.dart';
-import 'package:quizit/features/auth/screens/home/home_screen.dart';
+import 'package:quizit/features/home/home_screen.dart';
 import 'package:quizit/models/user.dart';
 import 'package:http/http.dart' as http;
 import 'package:quizit/providers/user_provider.dart';

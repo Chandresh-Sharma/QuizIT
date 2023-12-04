@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:quizit/constants/global_variables.dart';
-import 'package:quizit/features/auth/screens/auth/auth_screen.dart';
-import 'package:quizit/features/auth/screens/home/home_screen.dart';
+import 'package:quizit/features/auth/screens/auth_screen.dart';
+import 'package:quizit/features/home/home_screen.dart';
 import 'package:quizit/features/auth/services/auth_service.dart';
 import 'package:quizit/providers/user_provider.dart';
 import 'package:quizit/router.dart';
