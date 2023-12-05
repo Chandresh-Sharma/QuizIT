@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import 'package:quizit/common/widgets/CustomButton.dart';
 import 'package:quizit/common/widgets/CustomNavigationDrawer.dart';
 import 'package:quizit/constants/global_variables.dart';
+import 'package:quizit/features/host_quiz/screens/HostQuizMainPage.dart';
+import 'package:quizit/features/settings/screens/profile_page.dart';
 import 'package:quizit/providers/user_provider.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -14,6 +16,14 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  void changeToHomeScreen() {
+    Navigator.pushNamed(context, ProfilePage.routeName);
+  }
+
+  void changeToHostQuizMainPage() {
+    Navigator.pushNamed(context, HostQuizMainPage.routeName);
+  }
+
   @override
   Widget build(BuildContext context) {
     final user = Provider.of<UserProvider>(context).user;
@@ -43,9 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               child: CustomButton(
                 text: 'Join',
-                onTap: () {
-                  return;
-                },
+                onTap: changeToHomeScreen,
               ),
             ),
             Container(
@@ -56,9 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               child: CustomButton(
                 text: 'Host',
-                onTap: () {
-                  return;
-                },
+                onTap: changeToHostQuizMainPage,
               ),
             ),
             Container(

@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:quizit/constants/global_variables.dart';
+import 'package:quizit/features/home/screens/home_screen.dart';
 import 'package:quizit/features/settings/screens/profile_page.dart';
 import 'package:quizit/features/settings/screens/settings_mainpage.dart';
 
-class CustomNavigationDrawer extends StatelessWidget {
+class CustomNavigationDrawer extends StatefulWidget {
   const CustomNavigationDrawer({super.key});
 
+  @override
+  State<CustomNavigationDrawer> createState() => _CustomNavigationDrawerState();
+}
+
+class _CustomNavigationDrawerState extends State<CustomNavigationDrawer> {
   @override
   Widget build(BuildContext context) {
     Widget buildHeader(BuildContext context) {
