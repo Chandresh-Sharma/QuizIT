@@ -18,7 +18,11 @@ class _HomeScreenState extends State<HomeScreen> {
     final user = Provider.of<UserProvider>(context).user;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Dashboard'),
+        title: Center(
+          child: const Text(
+            'Dashboard',
+          ),
+        ),
         backgroundColor: GlobalVariables.secondaryColor,
       ),
       drawer: const CustomNavigationDrawer(),
