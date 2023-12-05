@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quizit/constants/global_variables.dart';
+import 'package:quizit/features/settings/screens/profile_page.dart';
 import 'package:quizit/features/settings/screens/settings_mainpage.dart';
 
 class CustomNavigationDrawer extends StatelessWidget {
@@ -65,7 +66,15 @@ class CustomNavigationDrawer extends StatelessWidget {
             ListTile(
               leading: const Icon(Icons.home_outlined),
               title: const Text('New'),
-              onTap: () {},
+              onTap: () {
+                Navigator.pop(context);
+
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const ProfilePage(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: GlobalVariables.navigationDrawerDivider,
